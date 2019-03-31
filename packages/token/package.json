@@ -1,0 +1,15 @@
+{
+  "name": "@zarabadoo/trt-token",
+  "version": "0.0.1",
+  "description": "Approved design tokens for Chewy properties.",
+  "author": "Al Steffen <asteffen@chewy.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/tokens.js",
+  "scripts": {
+    "build": "style-dictionary build"
+  },
+  "devDependencies": {
+    "style-dictionary": "^2.7.0"
+  }
+}

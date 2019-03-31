@@ -1,0 +1,14 @@
+{
+  "theme": {
+    "default-rev": {
+      "text": {
+        "base": {
+          "value": "{theme.default.text.alt.value}"
+        },
+        "alt": {
+          "value": "{theme.default.text.base.value}"
+        }
+      }
+    }
+  }
+}

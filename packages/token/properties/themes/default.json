@@ -1,0 +1,22 @@
+{
+  "theme": {
+    "default": {
+      "text": {
+        "base": {
+          "value": "{palette.monotone.black.value}"
+        },
+        "alt": {
+          "value": "{palette.monotone.white.value}"
+        }
+      },
+      "background": {
+        "base": {
+          "value": "{palette.monotone.white.value}"
+        },
+        "alt": {
+          "value": "{palette.grey.500.value}"
+        }
+      }
+    }
+  }
+}
