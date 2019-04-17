@@ -7,7 +7,7 @@ import { action } from "@storybook/addon-actions";
 
 import TrtButton from "./src/Button.vue";
 
-storiesOf("Components/Button", module)
+storiesOf("Components|Button", module)
   .add("with text", () => ({
     components: {
       TrtButton

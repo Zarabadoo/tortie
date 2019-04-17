@@ -1,12 +1,12 @@
 {
-  "name": "@zarabadoo/design-system",
+  "name": "@zarabadoo/tortie",
   "private": true,
   "scripts": {
     "build": "lerna run build;npm run storybook:build",
+    "clean": "lerna clean;rm -rf node_modules",
+    "serve": "npm run storybook:serve",
     "lint": "vue-cli-service lint",
-    "docs": "build-storybook",
     "postinstall": "lerna bootstrap",
-    "storybook": "start-storybook",
     "storybook:build": "vue-cli-service storybook:build -c config/storybook",
     "storybook:serve": "vue-cli-service storybook:serve -p 6006 -c config/storybook",
     "test": "npm run test:unit",
