@@ -113,7 +113,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .trt-table {
   $_parent: &;
 
