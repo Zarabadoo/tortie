@@ -133,7 +133,7 @@ export default {
 
   &__head,
   &__cell {
-    padding: 0.3rem;
+    padding: 0.5rem;
     text-align: left;
 
     + #{$_parent}__head,

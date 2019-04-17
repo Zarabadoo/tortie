@@ -132,7 +132,7 @@ storiesOf("Components|Table", module)
       </trt-table>
     `
   }))
-  .add("with caption", () => ({
+  .add("with caption slot", () => ({
     components: {
       TrtTable
     },
