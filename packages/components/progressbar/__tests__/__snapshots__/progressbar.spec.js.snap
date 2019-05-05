@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Progressbar.vue renders slot 1`] = `undefined`;
+
+exports[`ProgressbarLinear.vue renders slot 1`] = `<trt-progressbar-stub valuemin="0" valuemax="100"></trt-progressbar-stub>`;

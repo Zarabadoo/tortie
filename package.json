@@ -2,13 +2,12 @@
   "name": "tortie",
   "private": true,
   "scripts": {
-    "build": "lerna run build;npm run storybook:build",
+    "build": "lerna run build;lerna run build:docs",
     "clean": "lerna clean;rm -rf node_modules",
-    "serve": "npm run storybook:serve",
+    "serve": "lerna run serve:docs",
+    "lerna": "lerna",
     "lint": "vue-cli-service lint",
     "postinstall": "lerna bootstrap",
-    "storybook:build": "vue-cli-service storybook:build -c config/storybook",
-    "storybook:serve": "vue-cli-service storybook:serve -p 6006 -c config/storybook",
     "test": "npm run test:unit",
     "test:unit": "vue-cli-service test:unit"
   },
@@ -17,11 +16,6 @@
   },
   "devDependencies": {
     "@babel/core": "^7.4.0",
-    "@storybook/addon-actions": "^5.0.11",
-    "@storybook/addon-knobs": "^5.0.11",
-    "@storybook/addon-links": "^4.1.0 || ^5.0.0",
-    "@storybook/addon-notes": "^5.0.11",
-    "@storybook/vue": "^5.0.5",
     "@vue/cli-plugin-babel": "^3.5.0",
     "@vue/cli-plugin-eslint": "^3.5.0",
     "@vue/cli-plugin-unit-jest": "^3.7.0",
@@ -40,7 +34,6 @@
     "lint-staged": "^8.1.4",
     "sass": "^1.17.2",
     "sass-loader": "^7.1.0",
-    "vue-cli-plugin-storybook": "^0.6.1",
     "vue-loader": "^15.7.0",
     "vue-template-compiler": "^2.6.10"
   },

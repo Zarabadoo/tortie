@@ -1,16 +1,34 @@
 /* global describe, it, expect */
 
 import { shallowMount } from "@vue/test-utils";
-import TrtProgreessbar from "../src";
+import { TrtProgressbar, TrtProgressbarLinear } from "../src";
 
-describe("Table.vue", () => {
-  it("renders props.msg when passed", () => {
+describe("Progressbar.vue", () => {
+  it("renders slot", () => {
     const msg = "new message";
-    const wrapper = shallowMount(TrtProgreessbar, {
+    const wrapper = shallowMount(TrtProgressbar, {
       slots: {
         default: [msg]
+      },
+      propData: {
+        valuenow: "40"
       }
     });
-    expect(wrapper.text()).toMatch(msg);
+    expect(wrapper.html()).toMatchSnapshot();
+  });
+});
+
+describe("ProgressbarLinear.vue", () => {
+  it("renders slot", () => {
+    const msg = "new message";
+    const wrapper = shallowMount(TrtProgressbarLinear, {
+      slots: {
+        default: [msg]
+      },
+      propData: {
+        valuenow: "40"
+      }
+    });
+    expect(wrapper.html()).toMatchSnapshot();
   });
 });
