@@ -8,7 +8,6 @@ const req = require.context(
 );
 
 function loadStories() {
-  console.log("stories:", req.keys());
   req.keys().forEach(filename => req(filename));
 }
 
