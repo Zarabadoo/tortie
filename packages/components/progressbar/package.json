@@ -1,13 +1,13 @@
 {
-  "name": "@tortie/button",
+  "name": "@tortie/progressbar",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "build": "npm run build:lib",
     "build:lib": "vue-cli-service build --target lib ./src/index.js"
   },
-  "main": "dist/@zarabadoo/trt-button.umd.js",
-  "browser": "dist/@zarabadoo/trt-button.umd.min.js",
+  "main": "dist/@tortie/progressbar.umd.js",
+  "browser": "dist/@tortie/progressbar.umd.min.js",
   "dependencies": {
     "vue": "^2.6.6"
   },

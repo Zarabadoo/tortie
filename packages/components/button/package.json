@@ -1,13 +1,13 @@
 {
-  "name": "@tortie/table",
+  "name": "@tortie/button",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "build": "npm run build:lib",
     "build:lib": "vue-cli-service build --target lib ./src/index.js"
   },
-  "main": "dist/@zarabadoo/trt-table.umd.js",
-  "browser": "dist/@zarabadoo/trt-table.umd.min.js",
+  "main": "dist/@tortie/button.umd.js",
+  "browser": "dist/@tortie/button.umd.min.js",
   "dependencies": {
     "vue": "^2.6.6"
   },
