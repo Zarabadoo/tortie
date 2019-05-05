@@ -1,12 +1,16 @@
 <template>
   <button class="trt-button" type="button" v-bind="$attrs" v-on="$listeners">
+    <!-- @slot Add button content -->
     <slot />
   </button>
 </template>
 
 <script>
+/**
+ * A general purpose button
+ */
 export default {
-  name: "TrtButton",
+  name: "trt-button",
   inheritAttrs: false
 };
 </script>
