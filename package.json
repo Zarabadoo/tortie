@@ -1,5 +1,5 @@
 {
-  "name": "@zarabadoo/tortie",
+  "name": "tortie",
   "private": true,
   "scripts": {
     "build": "lerna run build;npm run storybook:build",

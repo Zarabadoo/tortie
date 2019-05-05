@@ -1,5 +1,5 @@
 {
-  "name": "@zarabadoo/trt-button",
+  "name": "@tortie/button",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -12,7 +12,7 @@
     "vue": "^2.6.6"
   },
   "devDependencies": {
-    "@zarabadoo/trt-token": "*",
+    "@tortie/token": "*",
     "@vue/cli-plugin-babel": "^3.5.0",
     "@vue/cli-plugin-eslint": "^3.5.0",
     "@vue/cli-plugin-unit-jest": "^3.5.0",
