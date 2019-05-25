@@ -15,7 +15,7 @@
     "vue": "^2.6.10"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.0",
+    "@babel/core": "^7.4.5",
     "@vue/cli-plugin-babel": "^3.5.0",
     "@vue/cli-plugin-eslint": "^3.5.0",
     "@vue/cli-plugin-unit-jest": "^3.7.0",
@@ -25,14 +25,14 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^23.6.0",
-    "babel-loader": "^8.0.5",
+    "babel-loader": "^8.0.6",
     "babel-preset-vue": "^2.0.2",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
     "fibers": "^3.1.1",
-    "lerna": "^3.13.4",
-    "lint-staged": "^8.1.4",
-    "sass": "^1.17.2",
+    "lerna": "^3.14.1",
+    "lint-staged": "^8.1.7",
+    "sass": "^1.20.1",
     "sass-loader": "^7.1.0",
     "vue-loader": "^15.7.0",
     "vue-template-compiler": "^2.6.10"
